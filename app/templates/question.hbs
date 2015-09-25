@@ -1,0 +1,6 @@
+<h2>{{model.content}}</h2>
+
+{{single-question question=model}}
+
+{{update-question question=question update="update"}}
+<button class="btn btn-danger btn-xs" {{action 'delete' question}}>Delete</button>
