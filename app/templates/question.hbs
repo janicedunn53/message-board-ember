@@ -1,6 +1,22 @@
+<div class="container">
+
 <h2>{{model.content}}</h2>
 
-{{single-question question=model}}
+{{single-question question=model.question}}
 
-{{update-question question=question update="update"}}
-<button class="btn btn-danger btn-xs" {{action 'delete' question}}>Delete</button>
+<!-- {{update-question question=question update="update"}}
+<button class="btn btn-danger btn-xs" {{action 'delete' question}}>Delete</button> -->
+
+<h2>Answers</h2>
+
+<ul>
+  {{#each model.question.answers as |answer|}}
+    <li>By {{answer.author}}
+    <br>
+    {{answer.content}}</li>
+  {{/each}}
+</ul>
+
+{{new-answer saveAnswer="saveAnswer" question=model.question}}
+
+</div>
