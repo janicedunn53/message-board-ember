@@ -1,1 +1,9 @@
-{{outlet}}
+<h1>Welcome to the Message Board</h1>
+
+<h3>We hope you find the answers you are looking for!</h3>
+
+<ul>
+  {{#each model as |question|}}
+    <li>"{{question.content}}" by {{question.author}}</li>
+  {{/each}}
+</ul>
