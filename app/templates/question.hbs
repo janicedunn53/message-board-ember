@@ -11,9 +11,7 @@
 
 <ul>
   {{#each model.question.answers as |answer|}}
-    <li>By {{answer.author}}
-    <br>
-    {{answer.content}}</li>
+    {{answer-tile answer=answer destroyAnswer="destroyAnswer"}}
   {{/each}}
 </ul>
 

@@ -14,6 +14,24 @@ export default Ember.Route.extend({
       newAnswer.save();
       question.save();
       this.transitionTo('question', params.question_id);
+    },
+
+    destroyAnswer(answer) {
+      answer.destroyRecord().then(function() {
+        question.save();
+      });
+      this.transitionTo('question');
     }
+
+    // destroyQuestion(question) {
+    //   var answer_deletions = question.get('answers').map(function(answer) {
+    //     return answer.destroyRecord();
+    //   });
+    //   Ember.RSVP.all(answer_deletions)
+    //     .then(function() {
+    //       return question.destroyRecord();
+    //     })
+    //   this.transitionTo('index');
+    // }
   }
 });
