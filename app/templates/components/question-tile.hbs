@@ -1,4 +1,7 @@
-<li>{{#link-to 'question' question.id}}<strong class="text-primary">"{{question.content}}"</strong>{{/link-to}} by {{question.author}}
+<li>{{#link-to 'question' question.id}}<strong class="text-primary">"{{question.content}}"</strong>{{/link-to}}
+  <br>
+  by {{question.author}}
+  
   {{update-question question=question update="update"}}
   <button class="btn btn-danger btn-xs" {{action 'delete' question}}>Delete</button>
 </li>
