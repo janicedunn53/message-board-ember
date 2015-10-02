@@ -9,9 +9,9 @@ export default Ember.Component.extend({
 
     save() {
       var params = {
-        content: this.get('content'),
+        inquiry: this.get('inquiry'),
         author: this.get('author'),
-        notes: this.get('notes'),
+        description: this.get('description'),
         date: this.get('date')
       };
       this.set('addNewQuestion', false),

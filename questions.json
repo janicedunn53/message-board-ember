@@ -1,17 +1,14 @@
 { "questions": [{
-    "content": "I only have one week to travel Ireland. Where should I go?",
+    "inquiry": "I only have one week to travel Ireland. Where should I go?",
     "author": "Connor",
-    "notes": "Traveling in November",
-    "date": "9/26/2015"
+    "description": "Traveling in November"
   }, {
-    "content": "Is Blarney Castle really worth the visit?",
+    "inquiry": "Is Blarney Castle really worth the visit?",
     "author": "Harper",
-    "notes": "Sounds like a tourist trap",
-    "date": "9/25/2015"
+    "description": "Sounds like a tourist trap"
   }, {
-    "content": "What is it like driving on the left side of the road? I'm nervous about it. Will I get used to it?",
+    "inquiry": "What is it like driving on the left side of the road? I'm nervous about it. Will I get used to it?",
     "author": "Vinnie",
-    "notes": "I don't know how to drive a stickshift.",
-    "date": "9/25/2015"
+    "description": "I don't know how to drive a stickshift."
   }]
 }
