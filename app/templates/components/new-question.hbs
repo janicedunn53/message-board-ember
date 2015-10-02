@@ -3,8 +3,8 @@
   <div>
     <form>
       <div class="form-group">
-        <label for="content">Question</label>
-        {{input value=content id="content"}}
+        <label for="inquiry">Question</label>
+        {{input value=inquiry id="inquiry"}}
       </div>
 
       <div class="form-group">
@@ -13,14 +13,14 @@
       </div>
 
       <div class="form-group">
-        <label for="notes">Additional Notes</label>
-        {{input value=notes id="notes"}}
+        <label for="description">Description</label>
+        {{input value=description id="description"}}
       </div>
 
-      <div class="form-group">
+      <!-- <div class="form-group">
         <label for="date">Date Question Posted</label>
         {{input value=date id="date"}}
-      </div>
+      </div> -->
 
       <button class="btn btn-success btn-xs" {{action 'save'}}>Save</button>
     </form>
