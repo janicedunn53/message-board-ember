@@ -1,7 +1,5 @@
-<li>By {{answer.author}}
-<br>
-{{answer.content}}
-<br>
+<li><h5>By {{answer.author}} on {{format-date answer.date_added}}</h5>
+<h5>{{answer.content}}</h5>
 <button class="btn btn-danger btn-xs" {{action 'delete' answer}}>Delete</button>
 </li>
 <br>
