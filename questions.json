@@ -1,14 +1,14 @@
 { "questions": [{
     "inquiry": "I only have one week to travel Ireland. Where should I go?",
     "author": "Connor",
-    "description": "Traveling in November"
+    "description": "I am planning on visiting the southern and western parts of Ireland. Since I am short on time, what are some of the must-see places? Thanks!"
   }, {
     "inquiry": "Is Blarney Castle really worth the visit?",
     "author": "Harper",
-    "description": "Sounds like a tourist trap"
+    "description": "Blarney Castle is a well-known attraction, so I'm concerned it'll just be a tourist trap. Can someone tell me what makes it worth the visit? And the hassle?"
   }, {
     "inquiry": "What is it like driving on the left side of the road? I'm nervous about it. Will I get used to it?",
     "author": "Vinnie",
-    "description": "I don't know how to drive a stickshift."
+    "description": "I am really excited about my upcoming trip to Ireland. My only concern is driving on the left side of the road. I am afraid I will forget and crash into something or someone. On top of that, I don't know how to drive stick. Should I just scrap my plans to drive and just take the train instead?"
   }]
 }
